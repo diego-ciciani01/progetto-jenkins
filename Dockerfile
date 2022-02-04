@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM ubuntu
 
-RUN apk add -U git curl 
+RUN apt-get install  -y git url 
 
